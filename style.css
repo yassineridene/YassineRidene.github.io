@@ -202,7 +202,7 @@ section {
 
 .skills-section {
     position: relative;
-    background-image: url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-image: url('back.avif');
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
@@ -231,7 +231,7 @@ section {
 
 .skills-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 colonnes sur PC */
+    grid-template-columns: 1fr 1fr; 
     gap: 0 40px;
 }
 
@@ -281,6 +281,9 @@ footer {
 
 .copyright { font-size: 0.8rem; color: #555; margin-top: 20px; }
 
+
+
+/*Fait par chat*/
 /* --- ADAPTATION ECRANS (RESPONSIVE) --- */
 @media (max-width: 768px) {
     header {
